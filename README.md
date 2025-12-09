@@ -7,7 +7,7 @@ paquetes instalados para crear el proyecto:
 - npx tailwindcss init -p
 - npm install react-router-dom
 Lo ejecuto con el siguiente comando en la terminal powershell:
-- npm run dev
+- npm run dev (corre en http://localhost:5173)
   
 ### I added this 3 lines on top of src/index.css document:
 @tailwind base;
@@ -20,4 +20,4 @@ Paquetes instalados para que funcione el backend:
 - npm init -y
 - npm install express@4 cors
 Lo ejecuto con el siguiente comando en la terminal powershell:
-- node server.js
+- node server.js (corre en http://localhost:5173/admin)
