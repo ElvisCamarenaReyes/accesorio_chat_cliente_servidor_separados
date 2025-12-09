@@ -21,3 +21,6 @@ Paquetes instalados para que funcione el backend:
 - npm install express@4 cors
 Lo ejecuto con el siguiente comando en la terminal powershell:
 - node server.js (corre en http://localhost:5173/admin)
+
+Si nos dirigimos al endpoint de la api: http://localhost:3001/api/chats veremos los payloads JSON de la respuesta de la API
+Nota: En realidad deberia usar JSON Web Token para pedir una autenticacion al usuario, asi estos json no podrian ser vistos por personas no autorizadas.
