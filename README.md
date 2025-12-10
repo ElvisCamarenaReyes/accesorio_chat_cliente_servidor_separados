@@ -6,6 +6,7 @@ paquetes instalados para crear el proyecto:
 - npm install -D tailwindcss@3.4.14 postcss autoprefixer (esta version era la mas compatible para trabajar en ese momento)
 - npx tailwindcss init -p
 - npm install react-router-dom
+
 Lo ejecuto con el siguiente comando en la terminal powershell:
 - npm run dev (corre en http://localhost:5173)
   
